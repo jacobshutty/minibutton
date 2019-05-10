@@ -1,8 +1,8 @@
 import Vue from "vue";
-import App from "./App.vue";
+import MiniButton from "./MiniButton.vue";
 
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App)
+  render: h => h(MiniButton)
 }).$mount("#app");

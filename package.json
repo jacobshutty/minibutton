@@ -1,10 +1,13 @@
 {
-  "name": "minibutton",
+  "name": "@jacobshutty/minibutton",
   "version": "0.1.0",
   "private": true,
+  "author": "Jacob Shutty",
+  "license": "MIT",
+  "main": "dist/minibutton.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name minibutton ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e"
   },
