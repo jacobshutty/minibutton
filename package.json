@@ -1,6 +1,6 @@
 {
   "name": "breakpoint-icon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A customizable icon for working with custom breakpoints during development of a Vue project.",
   "keywords": [
     "responsive",
