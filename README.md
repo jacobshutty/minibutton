@@ -17,7 +17,8 @@ yarn add breakpoint-icon --dev
 ### Local Registration
 
 You can put it wherever you want, but I would recommend putting it
-in one of your top-level components, such as App.vue.
+in one of your top-level components, such as App.vue. This way it will
+show up throughout your app.
 
 ```html
 <template>
