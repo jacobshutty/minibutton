@@ -1,13 +1,23 @@
 {
-  "name": "@jacobshutty/minibutton",
-  "version": "0.1.0",
-  "private": true,
+  "name": "breakpoint-icon",
+  "version": "1.0.0",
+  "description": "A customizable icon for working with custom breakpoints during development of a Vue project.",
+  "keywords": [
+    "responsive",
+    "breakpoints",
+    "breakpoint viewer",
+    "vue",
+    "development",
+    "tools",
+    "utilities"
+  ],
+  "private": false,
   "author": "Jacob Shutty",
   "license": "MIT",
-  "main": "dist/minibutton.common.js",
+  "main": "dist/breakpoint-icon.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name minibutton ./src/index.js",
+    "build": "vue-cli-service build --target lib --name breakpoint-icon ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e"
   },

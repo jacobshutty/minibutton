@@ -1,13 +1,13 @@
-import MiniButton from "./MiniButton";
+import BreakpointIcon from "./BreakpointIcon";
 
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("mini-button", MiniButton);
+  Vue.component("mini-button", BreakpointIcon);
 }
 
 const plugin = {
-  install
+  install,
 };
 
 let GlobalVue = null;
@@ -20,4 +20,4 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export default MiniButton;
+export default BreakpointIcon;

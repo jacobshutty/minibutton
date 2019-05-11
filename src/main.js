@@ -1,8 +1,8 @@
 import Vue from "vue";
-import MiniButton from "./MiniButton.vue";
+import BreakpointIcon from "./BreakpointIcon";
 
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(MiniButton)
+  render: h => h(BreakpointIcon),
 }).$mount("#app");
