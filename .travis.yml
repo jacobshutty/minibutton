@@ -1,4 +1,4 @@
 language: node_js
 install: yarn
 script: yarn build
-deploy: npm publish
+after_success: npm publish
