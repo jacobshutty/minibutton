@@ -16,7 +16,7 @@
     "url": "https://github.com/jacobshutty/breakpoint-icon"
   },
   "files": [
-    "dist/*"
+    "dist/"
   ],
   "private": false,
   "author": "Jacob Shutty",
