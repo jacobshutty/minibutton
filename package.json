@@ -11,6 +11,9 @@
     "tools",
     "utilities"
   ],
+  "files": [
+    "./dist"
+  ],
   "private": false,
   "author": "Jacob Shutty",
   "license": "MIT",

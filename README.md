@@ -1,34 +1,37 @@
-# minibutton
+# breakpoint-icon
 
-## Project setup
-```
-yarn install
-```
+A simple icon you can put in your Vue app that displays what breakpoint you're currently at.
 
-### Compiles and hot-reloads for development
+## Installation
+
 ```
-yarn run serve
+npm i breakpoint-icon --save-dev
 ```
 
-### Compiles and minifies for production
+or
+
 ```
-yarn run build
+yarn add breakpoint-icon --dev
 ```
 
-### Run your tests
-```
-yarn run test
-```
+### Local Registration
 
-### Lints and fixes files
-```
-yarn run lint
-```
+You can put it wherever you want, but I would recommend putting it
+in one of your top-level components, such as App.vue.
 
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
+```html
+<template>
+  <div id="app">
+    <breakpoint-icon></breakpoint-icon>
+  </div>
+</template>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<script>
+  import BreakpointIcon from "breakpoint-icon";
+
+  export default {
+    name: "App",
+    compononents: { BreakpointIcon },
+  };
+</script>
+```
