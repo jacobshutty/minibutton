@@ -61,17 +61,9 @@ export default {
   props: {
     breakpoints: {
       type: Array,
-      required: false,
+      required: true,
       default: function() {
         return [
-          {
-            name: "xs",
-            pixels: 450,
-          },
-          {
-            name: "s",
-            pixels: 600,
-          },
           {
             name: "m",
             pixels: 800,

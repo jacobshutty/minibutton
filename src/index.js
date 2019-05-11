@@ -3,7 +3,7 @@ import BreakpointIcon from "./BreakpointIcon";
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("mini-button", BreakpointIcon);
+  Vue.component("breakpoint-icon", BreakpointIcon);
 }
 
 const plugin = {
