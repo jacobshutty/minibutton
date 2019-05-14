@@ -113,7 +113,8 @@ Specify your breakpoints
 ```
 Name: defaultPosition
 Type: Object
-required: false
+Required: false
+Default: { y: "bottom", x: "left" }
 ```
 
 The icon is displayed in the bottom left corner by default
@@ -141,13 +142,15 @@ export default {
 ```
 Name: iconSize
 Type: Number or String
-required: false
+Required: false
+Default: 40
 ```
 
 ```
 Name: arrowSize
 Type: Number or String
-required: false
+Required: false
+Default: 30
 ```
 
 Specify the pixel size of the square icon and the arrow buttons
@@ -174,13 +177,15 @@ export default {
 ```
 Name: backgroundColor
 Type: String
-required: false
+Required: false
+Default: "#42b883"
 ```
 
 ```
 Name: textColor
 Type: String
-required: false
+Required: false
+Default: "#fff"
 ```
 
 Specify the background and text colors of the icon
@@ -207,7 +212,8 @@ export default {
 ```
 Name: zIndex
 Type: Number or String
-required: false
+Required: false
+Default: 99
 ```
 
 The default z-index is 99, with the intention of being on top of all elements in the app.
