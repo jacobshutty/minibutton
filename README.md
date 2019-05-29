@@ -2,6 +2,9 @@
 
 A simple icon you can put in your Vue app that displays what breakpoint the browser is currently displaying.
 
+![medium breakpoint](/public/medium.png)
+![small breakpoint](/public/small.png)
+
 ## Installation
 
 ```
